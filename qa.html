@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>接案家</title>
+  <link rel="stylesheet" href="./stylesheets/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Landing Page 設計稿練習：導覽列製作 start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="bi bi-house-fill text-info"></i> <span style="color: #333333;">接案家</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="index.html#intro">服務介紹</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="index.html#plan">方案費用</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="qa.html">常見問題</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-info" href="#">方案購買</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Landing Page 設計稿練習：導覽列製作 end -->
+
+  <!-- 自行練習製作 Q&A start -->
+  <section class="py-5" style="background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/white-shapes_HOGKNEMAUX.jpg'); background-size: cover;">
+    <div class="container">
+      <h3 class="text-center text-info fw-bold mb-1 fs-6">Q&A</h3>
+      <h2 class="text-center mb-4">常見問題</h2>
+    </div>
+  </section>
+  
+  <section class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                方案服務內容可以調整嗎？
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                討論確定後，開始製作後只能小部分修改。太多修改部分，需另外加購方案天數。
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                小小接案家、接一整天囉兩者的差異？
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                小小接案家是一天工作時間為 4 小時。<br>
+                接一整天囉是一天工作時間為 8 小時。<br>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                付款方式有哪些呢？
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                現金、轉帳為主，其他方式暫不支援。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 自行練習製作 Q&A end -->
+
+  <!-- 自行練習製作 聯絡和 footer start -->
+  <section class="py-5 container">
+    <h2 class="text-center mb-4">需要可以聯絡我們</h2>
+    <div class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4 justify-content-center">
+      <div class="col-lg-3 col-9">
+        <div class="card border-0 shadow h-100">
+          <div class="card-body text-center py-4 fs-4">
+            <a href="#" class="text-decoration-none link-dark stretched-link">
+              <i class="bi bi-telephone-fill text-info me-2"></i> 06-222-3333
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-9">
+        <div class="card border-0 shadow h-100">
+          <div class="card-body text-center py-4 fs-4">
+            <a href="#" class="text-decoration-none link-dark stretched-link">
+              <i class="bi bi-facebook text-info me-2"></i> 我就是個接案家
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-9">
+        <div class="card border-0 shadow h-100">
+          <div class="card-body text-center py-4 fs-4">
+            <a href="#" class="text-decoration-none link-dark stretched-link">
+              <i class="bi bi-question-lg text-info me-2"></i> 常見問題
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary text-white py-4">
+    <div class="container">
+      <p class="text-center m-0">Copyright © 2022 接案家.All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- 自行練習製作 聯絡和 footer end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
