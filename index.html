@@ -22,7 +22,7 @@
   <!-- Landing Page 設計稿練習：導覽列製作 start -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="bi bi-house-fill text-info"></i> 接案家</a>
+      <a class="navbar-brand" href="#"><i class="bi bi-house-fill text-info"></i> <span style="color: #333333;">接案家</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -81,7 +81,7 @@
       <h2 class="text-center mb-4">你有這些需求嗎？</h2>
       <div class="row row-cols-1 row-cols-lg-4 g-3 g-lg-4">
         <div class="col">
-          <div class="card border-0 shadow">
+          <div class="card border-0 shadow h-100">
             <div class="card-body text-center py-4">
               <i class="bi bi-vector-pen fs-s-48 text-info"></i>
               <h3 class="h4">網頁設計</h3>
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow">
+          <div class="card border-0 shadow h-100">
             <div class="card-body text-center py-4">
               <i class="bi bi-image fs-s-48 text-info"></i>
               <h3 class="h4">圖片應用</h3>
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow">
+          <div class="card border-0 shadow h-100">
             <div class="card-body text-center py-4">
               <i class="bi bi-code fs-s-48 text-info"></i>
               <h3 class="h4">程式編碼</h3>
@@ -108,7 +108,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow">
+          <div class="card border-0 shadow h-100">
             <div class="card-body text-center py-4">
               <i class="bi bi-shop fs-s-48 text-info"></i>
               <h3 class="h4">店家網站開發</h3>
@@ -120,6 +120,94 @@
     </div>
   </section>
   <!-- Landing Page 設計稿練習：特殊卡片排版 end -->
+
+  <!-- Landing Page 設計稿練習：表單響應式卡片排版 start -->
+  <section class="py-5 container">
+    <h2 class="text-center mb-4">方案費用</h2>
+    <div class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4">
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <div class="card-header border-0 text-center text-secondary">
+            小小接案家
+          </div>
+          <div class="card-body text-center flex-grow-0">
+            <img src="https://img.freepik.com/free-vector/business-team-planning-working-process-flat-vector-illustration-cartoon-colleagues-talking-sharing-thoughts-smiling-company-office-teamwork-workflow-concept_74855-9813.jpg?w=826&t=st=1647914011~exp=1647914611~hmac=ff2fb348d4926011451bac062af4a3aa4c6a5e1bed69184b16748b972569d90f" class="img-fluid" style="height: 195px;" alt="">
+            <div class="text-info mt-3" style="height: 56px;">
+              NT <strong class="fs-1">1500</strong> /天
+            </div>
+          </div>
+          <ul class="list-group list-group-flush border-top border-bottom">
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 一天工作時間 4 小時
+            </li>
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 不接受急件
+            </li>
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 單一服務需求
+            </li>
+          </ul>
+          <div class="card-body d-flex">
+            <button type="button" class="btn btn-info w-100 align-self-end">選擇方案</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <div class="card-header border-0 text-center bg-info text-white">
+            接一整天囉
+          </div>
+          <div class="card-body text-center flex-grow-0">
+            <img src="https://img.freepik.com/free-vector/company-employees-sharing-thoughts-ideas_74855-5469.jpg?w=826&t=st=1647914017~exp=1647914617~hmac=2b53174196afb7d52d3d7ea5fe1f954ee2909527859840e9930e8f16a6f7fa19" class="img-fluid" style="height: 195px;" alt="">
+            <div class="text-info mt-3" style="height: 56px;">
+              NT <strong class="fs-1">3500</strong> /天
+            </div>
+          </div>
+          <ul class="list-group list-group-flush border-top border-bottom">
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 一天工作時間 8 小時
+            </li>
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 不接受急件
+            </li>
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 多個服務提供
+            </li>
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 有問題可小部分修改
+            </li>
+          </ul>
+          <div class="card-body d-flex">
+            <button type="button" class="btn btn-info w-100 align-self-end">選擇方案</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <div class="card-header border-0 text-center text-secondary">
+            盡心盡力的人生
+          </div>
+          <div class="card-body text-center flex-grow-0">
+            <img src="https://img.freepik.com/free-vector/customer-giving-quality-feedback_74855-5482.jpg?w=996&t=st=1647914023~exp=1647914623~hmac=c12d3dc02623204a0474a6c26a6782c6d5bc444e4478da5ddbfbf37de2cb7b07" class="img-fluid" style="height: 195px;" alt="">
+            <div class="text-info mt-3 fs-5 d-flex justify-content-center"  style="height: 56px;">
+              <div class=" align-self-center">
+                客製化詢價
+              </div>
+            </div>
+          </div>
+          <ul class="list-group list-group-flush border-top border-bottom">
+            <li class="list-group-item text-secondary ps-5">
+              <i class="bi bi-check-lg text-info position-absolute start-0 ms-3"></i> 一系列的服務、完成，您交辦的客製化專案，歡迎與我們聯繫！
+            </li>
+          </ul>
+          <div class="card-body d-flex">
+            <button type="button" class="btn btn-info w-100 align-self-end">線上諮詢</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Landing Page 設計稿練習：表單響應式卡片排版 end -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
