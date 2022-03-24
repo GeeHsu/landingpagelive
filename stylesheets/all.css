@@ -7715,11 +7715,6 @@ fieldset:disabled .btn {
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg {
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-}
-
 .shadow-none {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -11962,5 +11957,25 @@ fieldset:disabled .btn {
   height: 627px;
   background-size: cover;
   background-position: bottom center;
+}
+
+.deco-line {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.deco-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #4a6fa5;
+}
+
+.btn-special.active {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 /*# sourceMappingURL=all.css.map */

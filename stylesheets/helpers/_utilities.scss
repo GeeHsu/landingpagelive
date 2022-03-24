@@ -53,13 +53,14 @@ $utilities: map-merge(
     ),
     // scss-docs-end utils-display
     // scss-docs-start utils-shadow
+    // shadow-lg(尺寸 → 中斷點)
     "shadow": (
       property: box-shadow,
       class: shadow,
       values: (
         null: $box-shadow,
         sm: $box-shadow-sm,
-        lg: $box-shadow-lg,
+        // lg: $box-shadow-lg,
         none: none,
       )
     ),
